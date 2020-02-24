@@ -2,7 +2,7 @@
 module Problem2 where
 
 myButLast :: [a] -> a
-myButLast list = last (init list)
+myButLast = last . init
 
 myButLast' :: [a] -> a
 myButLast' [] = error "Cannot find but last of empty list"
