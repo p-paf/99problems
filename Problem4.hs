@@ -10,5 +10,5 @@ lenlistpass :: [a] -> Int -> Int
 lenlistpass [] n = n
 lenlistpass (x:xs) n = lenlistpass xs (n + 1)
 
-test1 = [1,2,3,4,5,67]
-test2 = "abhishek"
+test1 = lenlist [1,2,3,4,5,67]
+test2 = lenlist "abhishek"
