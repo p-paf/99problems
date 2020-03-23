@@ -9,3 +9,7 @@ mylasts :: [a] -> a
 mylasts []=error " dscfv"
 mylasts (a: b : [])= a 
 mylasts (c : cs )= mylasts cs
+
+
+test1 = [1,2,3,4,5,6,7]
+test2 = "abhishek" 
