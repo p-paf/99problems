@@ -13,3 +13,6 @@ compresslistpassagain :: Eq a => [a] -> [a] -> [a]
 compresslistpassagain [] r = r
 compresslistpassagain (x:xs) r = compresslistpassagain (dropWhile (== x) xs) (r ++ [x])
 
+test1 = pack [1,1,1,2,2,2,3,3,3]
+test2 = pack '(aaaaaabbbbbbbbbbccccddd)'
+
