@@ -7,3 +7,6 @@ reverselist list = reverselistpass list []
 
 reverselistpass [] ans = ans
 reverselistpass (x:xs) ans = reverselistpass xs ([x] ++ ans)
+
+test1 = reverselist [1,2,3,4,5,6,7]
+test2 = reverselist "abhishek "
